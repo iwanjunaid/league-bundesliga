@@ -1,0 +1,34 @@
+{
+  "name": "league-bundesliga",
+  "version": "1.0.0",
+  "description": "Scraper for Bundesliga",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwanjunaid/league-bundesliga.git"
+  },
+  "keywords": [
+    "football",
+    "soccer",
+    "league",
+    "bundesliga",
+    "scraper"
+  ],
+  "author": "Kurniawan Junaidy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwanjunaid/league-bundesliga/issues"
+  },
+  "homepage": "https://github.com/iwanjunaid/league-bundesliga#readme",
+  "dependencies": {
+    "async": "1.5.x",
+    "cheerio": "0.20.x",
+    "node-horseman": "2.8.x"
+  },
+  "devDependencies": {
+    "mocha": "2.4.x"
+  }
+}
