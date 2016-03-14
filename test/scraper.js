@@ -5,6 +5,17 @@ describe('Scraping Bundesliga', function() {
     });
   });
 
+  describe('Check scraper', function() {
+    it('should returns proper info', function(done) {
+      var info = scraper.info();
+
+      assert.equal('bundesliga', info.name);
+      assert.equal('1.0.1', info.apiVersion);
+      assert.equal('Bundesliga', info.label);
+      done();
+    });
+  });
+
   describe('Standings', function() {
     describe('Full', function() {
       var result = null;
